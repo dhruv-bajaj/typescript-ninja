@@ -1,0 +1,24 @@
+Typescript: programming language, alternative to javascript.
+It is superset to javascript.
+
+Browsers by default do not understand typescript.
+So we have to complile it down into javascript, in order 
+to understand it.
+
+Advantages and features:
+Allows us to use string types, say a string number, string. Less error prone.
+Javascript uses dynamic types where variables can change types, it can lead to more errors.
+
+We can use arroes functions, destructuring in typescript.
+
+Extra features like generics, interfaces and tuples etc, that are not there in javascript.
+
+tsc => tyescript compiler
+npm i -g typescript to install compiler globally
+
+Command for compilation
+tsc <filename.ts>
+
+tsc <filename.ts> -w
+to automatically compile whenever changes are made.
+Basically to start compilation in watch mode.
